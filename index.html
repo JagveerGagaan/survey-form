@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="title">Freecodecamp survey Form</h1>
+  <p id="description">Lets do a survey which will help us to do better</p>
+
+  <form action="" id="survey-form">
+
+    <label id="name-label" for="name"> Name </label>
+    <br>
+    <input type="text" name="name" id="name" placeholder="Name" required>
+
+    <br><br><br>
+
+    <label id="email-label" for="email">Email</label>
+    <br>
+    <input type="email" name="email" id="email" placeholder="Email" required>
+
+    <br><br><br>
+
+    <label id="number-label" for="number">Age (optional)</label>
+    <br>
+    <input type="number" name="age" id="number" min="10" max="13" placeholder="Age">
+
+    <br><br><br>
+    <label >Which option best describes your current role ?</label>
+    <br>
+    <select name="current_role" id="dropdown" required>
+      <option value="Select_current_role">Select current role</option>
+      <option value="Student">Student</option>
+      <option value="full_time">Full Time Job</option>
+      <option value="part_time">Part Time Job</option>
+      <option value="self_employed">Self Employed</option>
+    </select>
+
+    <br><br><br>
+
+    <label for="radio_button">Would You Recommend Us to Your Friend ?</label>
+    <br>
+    <label for="definitely">
+      <input type="radio" name="recommendation" id="definitely" value="definitely">Definitely
+    </label>
+    <br>
+    <label for="maybe">
+      <input type="radio" name="recommendation" id="maybe" value="maybe">Maybe
+    </label>
+    <br>
+    <label for="not_sure">
+      <input type="radio" name="recommendation" id="not_sure" value="not_sure">Not Sure
+    </label>
+
+    <br><br><br>
+
+    <label for="radio_button">What We Should Improve ?</label>
+    <br>
+    <label for="front_end_projects">
+      <input type="checkbox" name="suggestions" id="front_end_projects" value="front_end_projects">Front-end Projects
+    </label>
+    <br>
+    <label for="back_end_projects">
+      <input type="checkbox" name="suggestions" id="back_end_projects" value="back_end_projects">Back-end Projects
+    </label>
+    <br>
+    <label for="data_visualization">
+      <input type="checkbox" name="suggestions" id="data_visualization" value="data_visualization">Data Visualization
+    </label>
+    <br>
+    <label for="new_challenges">
+      <input type="checkbox" name="suggestions" id="new_challenges" value="new_challenges">Challenges
+    </label>
+    <br>
+    <label for="new_section">
+      <input type="checkbox" name="suggestions" id="new_section" value="new_section">Videos
+    </label>
+
+    <br><br><br>
+
+    <label for="any_suggestion">Additional Comments or Suggestions ?</label>
+    <br>
+    <textarea type="textarea" name="any_suggestion" id="any_suggestion"></textarea>
+    
+    <br><br><br>
+
+    <input type="submit" id="submit">
+
+  </form>
+  
+</body>
+</html>

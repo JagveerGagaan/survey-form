@@ -1,0 +1,48 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: darkslateblue;
+}
+#title,
+#description {
+  text-align: center;
+  color: white;
+}
+
+#survey-form {
+  border: 2px solid darkslateblue;
+  border-radius: 10px;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  width: 60%;
+  margin: 1rem auto;
+  padding: 2rem;
+}
+
+label {
+  /* border: 2px solid black; */
+  font-size: 2vw;
+  color: white;
+}
+
+input,
+#dropdown {
+  border: 2px solid teal;
+  border-radius: 6px;
+  font-size: 1.5vw;
+  padding: 0.5rem;
+}
+
+textarea {
+  max-width: 100%;
+  max-height: 10rem;
+}
+
+#submit {
+  font-size: large;
+}
